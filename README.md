@@ -1,98 +1,79 @@
-## Baserow is an open source no-code database tool and Airtable alternative.
-
-Create your own online database without technical experience. Our user-friendly no-code
-tool gives you the powers of a developer without leaving your browser.
-
-* A spreadsheet database hybrid combining ease of use and powerful data organization.
-* Easily self-hosted with no storage restrictions or sign-up on https://baserow.io to
-  get started immediately.
-* Alternative to Airtable.
-* Open-core with all non-premium and non-enterprise features under
-  the [MIT License](https://choosealicense.com/licenses/mit/) allowing commercial and
-  private use.
-* Headless and API first.
-* Uses popular frameworks and tools like [Django](https://www.djangoproject.com/),
-  [Vue.js](https://vuejs.org/) and [PostgreSQL](https://www.postgresql.org/).
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bram2w/baserow/tree/master)
-
-```bash
-docker run -v baserow_data:/baserow/data -p 80:80 -p 443:443 baserow/baserow:1.24.2
-```
-
-![Baserow screenshot](docs/assets/screenshot.png "Baserow screenshot")
-
-## Get Involved
-
-**We're hiring remotely**! More information at https://baserow.io/jobs.
-
-Join our forum on https://community.baserow.io/. See
-[CONTRIBUTING.md](./CONTRIBUTING.md) on how to become a contributor.
-
-## Installation
-
-* [**Docker**](docs/installation/install-with-docker.md)
-* [**Ubuntu**](docs/installation/install-on-ubuntu.md)
-* [**Docker Compose** ](docs/installation/install-with-docker-compose.md)
-* [**Heroku**: Easily install and scale up Baserow on Heroku.](docs/installation/install-on-heroku.md)
-* [**Render**: Easily install and scale up Baserow on Render.](docs/installation/install-on-render.md)
-* [**Digital Ocean**: Easily install and scale up Baserow on Digital Ocean.](docs/installation/install-on-digital-ocean.md)
-* [**Cloudron**: Install and update Baserow on your own Cloudron server.](docs/installation/install-on-cloudron.md)
-* [**Railway**: Install Baserow via Railway.](docs/installation/install-on-railway.md)
-* [**Elestio**: Fully managed by Elestio.](https://elest.io/open-source/baserow)
-
-## Official documentation
-
-The official documentation can be found on the website at https://baserow.io/docs/index
-or [here](./docs/index.md) inside the repository. The API docs can be found here at
-https://api.baserow.io/api/redoc/ or if you are looking for the OpenAPI schema here
-https://api.baserow.io/api/schema.json.
-
-## Become a sponsor
-
-If you would like to get new features faster, then you might want to consider becoming a
-sponsor. By becoming a sponsor we can spend more time on Baserow which means faster
-development.
-
-[Become a GitHub Sponsor](https://github.com/sponsors/bram2w)
-
-## Development environment
-
-If you want to contribute to Baserow you can setup a development environment like so:
-
-```
-$ git clone https://gitlab.com/baserow/baserow.git
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Baserow 是一个开源无代码数据库工具和 Airtable 替代品。</font></font></h2><a id="user-content-baserow-is-an-open-source-no-code-database-tool-and-airtable-alternative" class="anchor" aria-label="永久链接：Baserow 是一个开源无代码数据库工具和 Airtable 替代品。" href="#baserow-is-an-open-source-no-code-database-tool-and-airtable-alternative"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需技术经验即可创建您自己的在线数据库。我们用户友好的无代码工具让您无需离开浏览器即可获得开发人员的权力。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种电子表格数据库混合体，结合了易用性和强大的数据组织功能。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://baserow.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松自托管，没有存储限制或在https://baserow.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上注册</font><font style="vertical-align: inherit;">即可立即开始。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Airtable 的替代品。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放核心，具有</font></font><a href="https://choosealicense.com/licenses/mit/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIT 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下的所有非高级和非企业功能，允许商业和私人使用。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无头和 API 优先。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用流行的框架和工具，如</font></font><a href="https://www.djangoproject.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Django</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://vuejs.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vue.js</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.postgresql.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<p dir="auto"><a href="https://heroku.com/deploy?template=https://github.com/bram2w/baserow/tree/master" rel="nofollow"><img src="https://camo.githubusercontent.com/df5706ea91f4c49deb42ca31a753d025e2078d24e2490cf88ffc7ed84a38e48e/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" alt="部署到 Heroku" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" style="max-width: 100%;"></a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker run -v baserow_data:/baserow/data -p 80:80 -p 443:443 baserow/baserow:1.24.2</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker run -v baserow_data:/baserow/data -p 80:80 -p 443:443 baserow/baserow:1.24.2" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/bram2w/baserow/blob/master/docs/assets/screenshot.png"><img src="/bram2w/baserow/raw/master/docs/assets/screenshot.png" alt="基行截图" title="基行截图" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与其中</font></font></h2><a id="user-content-get-involved" class="anchor" aria-label="永久链接：参与其中" href="#get-involved"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们远程招聘</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！更多信息请访问</font></font><a href="https://baserow.io/jobs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://baserow.io/jobs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们的论坛</font></font><a href="https://community.baserow.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://community.baserow.io/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。请参阅
+</font></font><a href="/bram2w/baserow/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解如何成为贡献者。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-with-docker.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">码头工人</font></font></strong></a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-on-ubuntu.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">乌班图</font></font></strong></a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-with-docker-compose.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 组合</font></font></strong> </a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-on-heroku.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Heroku</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：在 Heroku 上轻松安装和扩展 Baserow。</font></font></a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-on-render.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：在渲染上轻松安装和扩展 Baserow。</font></font></a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-on-digital-ocean.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Digital Ocean</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：在 Digital Ocean 上轻松安装和扩展 Baserow。</font></font></a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-on-cloudron.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cloudron</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：在您自己的 Cloudron 服务器上安装和更新 Baserow。</font></font></a></li>
+<li><a href="/bram2w/baserow/blob/master/docs/installation/install-on-railway.md"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">铁路</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通过铁路安装 Baserow。</font></font></a></li>
+<li><a href="https://elest.io/open-source/baserow" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elestio</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：由 Elestio 完全管理。</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档</font></font></h2><a id="user-content-official-documentation" class="anchor" aria-label="永久链接：官方文档" href="#official-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档可以在网站</font></font><a href="https://baserow.io/docs/index" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://baserow.io/docs/index</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+或</font><font style="vertical-align: inherit;">存储库中</font></font><a href="/bram2w/baserow/blob/master/docs/index.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 API 文档可以在
+</font></font><a href="https://api.baserow.io/api/redoc/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://api.baserow.io/api/redoc/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到，或者如果您要在此处查找 OpenAPI 架构
+</font></font><a href="https://api.baserow.io/api/schema.json" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://api.baserow.io/api/schema.json</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为赞助商</font></font></h2><a id="user-content-become-a-sponsor" class="anchor" aria-label="永久链接：成为赞助商" href="#become-a-sponsor"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想更快地获得新功能，那么您可能需要考虑成为赞助商。通过成为赞助商，我们可以在 Baserow 上投入更多时间，这意味着更快的开发。</font></font></p>
+<p dir="auto"><a href="https://github.com/sponsors/bram2w"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为 GitHub 赞助商</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发环境</font></font></h2><a id="user-content-development-environment" class="anchor" aria-label="永久链接：开发环境" href="#development-environment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想为 Baserow 做出贡献，您可以设置一个开发环境，如下所示：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>$ git clone https://gitlab.com/baserow/baserow.git
 $ cd baserow
 $ ./dev.sh --build
-```
-
-The Baserow development environment is now running.
-Visit [http://localhost:3000](http://localhost:3000) in your browser to see a working
-version in development mode with hot code reloading and other dev features enabled.
-
-More detailed instructions and more information about the development environment can be
-found
-at [https://baserow.io/docs/development/development-environment](./docs/development/development-environment.md)
-.
-
-## Plugin development
-
-Because of the modular architecture of Baserow it is possible to create plugins. Make
-your own fields, views, applications, pages or endpoints. We also have a plugin
-boilerplate to get you started right away. More information can be found in the
-[plugin introduction](./docs/plugins/introduction.md) and in the
-[plugin boilerplate docs](./docs/plugins/boilerplate.md).
-
-## Meta
-
-Created by Baserow B.V. - bram@baserow.io.
-
-Distributes under the MIT license. See `LICENSE` for more information.
-
-Version: 1.24.2
-
-The official repository can be found at https://gitlab.com/baserow/baserow.
-
-The changelog can be found [here](./changelog.md).
-
-Become a GitHub Sponsor [here](https://github.com/sponsors/bram2w).
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ git clone https://gitlab.com/baserow/baserow.git
+$ cd baserow
+$ ./dev.sh --build" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Baserow开发环境现已运行。在浏览器中</font><font style="vertical-align: inherit;">访问</font></font><a href="http://localhost:3000" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://localhost:3000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以查看开发模式下的工作版本，并启用热代码重新加载和其他开发功能。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关开发环境的更多详细说明和更多信息，请访问</font></font><a href="/bram2w/baserow/blob/master/docs/development/development-environment.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://baserow.io/docs/development/development-environment</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件开发</font></font></h2><a id="user-content-plugin-development" class="anchor" aria-label="永久链接：插件开发" href="#plugin-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于 Baserow 的模块化架构，可以创建插件。创建您自己的字段、视图、应用程序、页面或端点。我们还有一个插件样板可以让您立即开始。更多信息可以在
+</font></font><a href="/bram2w/baserow/blob/master/docs/plugins/introduction.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件简介</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和
+</font></font><a href="/bram2w/baserow/blob/master/docs/plugins/boilerplate.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件样板文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元</font></font></h2><a id="user-content-meta" class="anchor" aria-label="永久链接：元" href="#meta"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由 Baserow BV 创建 - </font></font><a href="mailto:bram@baserow.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bram@baserow.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据 MIT 许可证分发。请参阅</font></font><code>LICENSE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取更多信息。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本：1.24.2</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方存储库可以在</font></font><a href="https://gitlab.com/baserow/baserow" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://gitlab.com/baserow/baserow</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="/bram2w/baserow/blob/master/changelog.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到更改日志</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/sponsors/bram2w"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为 GitHub 赞助商</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
